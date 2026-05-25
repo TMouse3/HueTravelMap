@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #4B0082;
+  --color-primary-hover: #3A0066; 
+  --color-secondary: #E6E6FA;
+  --color-dark: #1A1A1A; 
+  --color-light: #F8F9FA;
+}
+
+body {
+  background-color: var(--color-light);
+}
+
+.custom-marker {
+  background: none;
+  border: none;
+}
