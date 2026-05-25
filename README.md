@@ -58,7 +58,7 @@ HueTravelMap/
 ├── Frontend/
 ├── Database/
 ├── TaiLieu/
-└── Images/
+└── HueTravelMapImages/
 ```
 
 ---
@@ -176,8 +176,8 @@ Dự án tích hợp **Spring AI** và **Gemini AI** để:
 ---
 
 ## 📸 Hình ảnh dự án
-
-> Có thể thêm screenshot giao diện tại đây.
+<img width="1859" height="879" alt="image" src="https://github.com/user-attachments/assets/0da12c6b-8b6f-4466-bcb5-0b71c3c4451b" />
+<img width="1864" height="877" alt="image" src="https://github.com/user-attachments/assets/3e43469d-7464-4100-93c3-cb06e16a43a8" />
 
 ---
 
