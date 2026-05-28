@@ -1,7 +1,11 @@
 package com.mouse3.hue_travel_map.service;
 
+import java.awt.image.BufferedImage;
+import java.io.IOException;
 import java.util.List;
 import java.util.stream.Collectors;
+
+import javax.imageio.ImageIO;
 
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.content.Media;
@@ -21,16 +25,111 @@ public class ChatAIService {
         this.placeRepository = placeRepository;
     }
 
-    public String chatWithImage(List<MultipartFile> files, String message) {
-        
-        // Ràng buộc 1: Phải gửi ít nhất 1 ảnh
+    private static final List<String> ALLOWED_CONTENT_TYPES = List.of(
+        "image/jpeg",
+        "image/png",
+        "image/webp"
+    );
+
+    private static final List<String> ALLOWED_EXTENSIONS = List.of(
+        ".jpg",
+        ".jpeg",
+        ".png",
+        ".webp"
+)   ;
+
+    private void validateImages(List<MultipartFile> files) {
+
+        // Phải có ít nhất 1 ảnh
         if (files == null || files.isEmpty() || files.get(0).isEmpty()) {
-            return "**Chào bạn, tôi là HueTravelMap.AI - Trợ lý AI thông minh tìm kiếm địa điểm theo hình ảnh.**\n\nTôi chưa nhận được hình ảnh nào từ bạn. Vui lòng tải lên từ 1 đến 3 bức ảnh địa danh để tôi có thể xem xét nhé!";
+
+            throw new RuntimeException(
+                    "Vui lòng tải lên ít nhất 1 ảnh!"
+            );
         }
 
-        // Ràng buộc 2: Chỉ cho phép tối đa 3 ảnh
+        // Tối đa 3 ảnh
         if (files.size() > 3) {
-            return "**Chào bạn, tôi là HueTravelMap.AI - Trợ lý AI thông minh tìm kiếm địa điểm theo hình ảnh.**\n\nXin lỗi, để đảm bảo độ chính xác, hiện tại tôi chỉ có thể phân tích tối đa 3 bức ảnh trong một lần hỏi. Bạn vui lòng chọn lọc lại ảnh nhé!";
+
+            throw new RuntimeException(
+                    "Chỉ được tải lên tối đa 3 ảnh!"
+            );
+        }
+
+        // Validate từng file
+        for (MultipartFile file : files) {
+
+            // File rỗng
+            if (file.isEmpty()) {
+
+                throw new RuntimeException(
+                        "Ảnh upload không được để trống!"
+                );
+            }
+
+            // Check MIME type
+            String contentType = file.getContentType();
+
+            if (contentType == null ||
+                    !ALLOWED_CONTENT_TYPES.contains(
+                            contentType.toLowerCase()
+                    )) {
+
+                throw new RuntimeException(
+                        "Chỉ chấp nhận ảnh JPG, JPEG, PNG hoặc WEBP!"
+                );
+            }
+
+            // Check extension
+            String originalFilename = file.getOriginalFilename();
+
+            String extension = "";
+
+            if (originalFilename != null &&
+                    originalFilename.contains(".")) {
+
+                extension = originalFilename
+                        .substring(originalFilename.lastIndexOf("."))
+                        .toLowerCase();
+            }
+
+            if (!ALLOWED_EXTENSIONS.contains(extension)) {
+
+                throw new RuntimeException(
+                        "Định dạng file không hợp lệ!"
+                );
+            }
+
+            // Verify nội dung thật sự là image
+            try {
+
+                BufferedImage image =
+                        ImageIO.read(file.getInputStream());
+
+                if (image == null) {
+
+                    throw new RuntimeException(
+                            "File upload không phải ảnh hợp lệ!"
+                    );
+                }
+
+            } catch (IOException e) {
+
+                throw new RuntimeException(
+                        "Không thể đọc file ảnh!"
+                );
+            }
+        }
+    }
+
+    public String chatWithImage(List<MultipartFile> files, String message) {
+        
+        // 1. Validate ảnh đầu vào
+        try {
+            validateImages(files);
+        } catch (RuntimeException e) {
+            return "**Chào bạn, tôi là HueTravelMap.AI - Trợ lý AI thông minh tìm kiếm địa điểm theo hình ảnh.**\n\n"
+                    + e.getMessage();
         }
 
         // 2. Lấy ngữ cảnh địa điểm từ DB để bơm vào System Prompt
