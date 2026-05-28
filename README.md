@@ -73,7 +73,30 @@ git clone https://github.com/TMouse3/HueTravelMap.git
 
 ---
 
-### 2. Cấu hình Backend
+### 2. Di chuyển thư mục lưu ảnh
+
+Sau khi clone project, hãy di chuyển thư mục:
+
+```bash
+HueTravelMapImages/
+```
+
+đến vị trí mong muốn trên máy tính để lưu trữ ảnh upload.
+
+Ví dụ di chuyển sang ổ D:
+
+```bash
+D:/HueTravelMapImages/
+```
+
+Thư mục này được sử dụng để:
+- lưu ảnh địa điểm
+- lưu ảnh người dùng upload
+- phục vụ hiển thị ảnh trên hệ thống
+
+---
+
+### 3. Cấu hình Backend
 
 Di chuyển đến thư mục:
 
@@ -118,7 +141,7 @@ app.upload.dir=
 
 ---
 
-### 3. Cài đặt Database
+### 4. Cài đặt Database
 
 Mở SQL Server và chạy script trong thư mục:
 
@@ -128,7 +151,7 @@ Database/
 
 ---
 
-### 4. Chạy Backend
+### 5. Chạy Backend
 
 ```bash
 cd Backend
@@ -145,7 +168,7 @@ http://localhost:8080
 
 ---
 
-### 5. Chạy Frontend
+### 6. Chạy Frontend
 
 ```bash
 cd Frontend
