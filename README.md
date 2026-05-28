@@ -101,10 +101,12 @@ spring.datasource.username=
 spring.datasource.password=
 
 # JWT
-jwt.secret=
+jwt.signerKey=
 
 # Gemini AI
-gemini.api.key=
+spring.ai.openai.api-key=
+# Đổi model nếu muốn
+spring.ai.openai.chat.options.model=
 
 # SMTP Mail
 spring.mail.username=
