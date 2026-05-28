@@ -42,7 +42,8 @@ public class SecurityConfig {
         "/auth/forgot-password",
         "/auth/reset-password",
         "/users/register",
-        "/chatAI/chat-with-image"
+        "/chatAI/chat-with-image",
+        "/visits/record"
     };
 
     // ----- CÁC API DÀNH CHO USER (VÀ ADMIN) -----
@@ -57,8 +58,7 @@ public class SecurityConfig {
         "/checkins",        
         "/placesuggestions", 
         "/files/upload",
-        "/files/upload-multiple",
-        "/visits/record"
+        "/files/upload-multiple"
     };
 
     public String[] USER_PUT_ENDPOINTS = {

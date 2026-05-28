@@ -174,11 +174,11 @@ function MapPage() {
     // Lấy tọa độ hiện tại của thiết bị
     navigator.geolocation.getCurrentPosition(
       async (position) => {
-        // const userLat = position.coords.latitude;
-        // const userLng = position.coords.longitude;
+        const userLat = position.coords.latitude;
+        const userLng = position.coords.longitude;
 
-        const userLat = placeDetail.lat
-        const userLng = placeDetail.lng
+        // const userLat = placeDetail.lat
+        // const userLng = placeDetail.lng
 
         try {
           // Gọi API verify-location
