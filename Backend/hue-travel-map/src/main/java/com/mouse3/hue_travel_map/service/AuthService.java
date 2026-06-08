@@ -161,10 +161,10 @@ public class AuthService {
             long minutes = remaining.toMinutes();
             long seconds = remaining.minusMinutes(minutes).getSeconds();
 
-            throw new RuntimeException( String.format("OTP đã được gửi vào gmail của bạn. Vui lòng thử lại sau %d phút %d giây!",
+            return String.format("OTP đã được gửi vào Gmail của bạn và vẫn còn hiệu lực trong %d phút %d giây!",
                 minutes,
                 seconds
-            ));
+            );
         }
 
         // Tạo OTP 6 số ngẫu nhiên
