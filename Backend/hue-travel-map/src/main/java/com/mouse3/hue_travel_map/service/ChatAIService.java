@@ -148,7 +148,7 @@ public class ChatAIService {
                 })
                 .collect(Collectors.joining("\n"));
 
-        // 3. Xây dựng System Prompt với LUẬT THÉP MỚI
+        // 3. Xây dựng System Prompt với các quy tắc rõ ràng và chi tiết, đồng thời bơm ngữ cảnh địa điểm vào
         String systemPrompt = """
                 Quy tắc BẮT BUỘC:
                 1. MỞ ĐẦU: Bất kể người dùng hỏi gì, BẮT BUỘC phải mở đầu câu trả lời bằng đúng nguyên văn câu này (in đậm): "**Chào bạn, tôi là HueTravelMap.AI - Trợ lý AI thông minh tìm kiếm địa điểm theo hình ảnh.**"

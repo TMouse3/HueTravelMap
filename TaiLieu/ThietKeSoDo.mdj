@@ -3443,9 +3443,9 @@
 											"font": "Arial;13;1",
 											"parentStyle": true,
 											"left": 591,
-											"top": 386.5,
+											"top": 393,
 											"width": 74,
-											"height": 39,
+											"height": 26,
 											"text": "Chỉ đường đến địa điểm",
 											"wordWrap": true
 										},
@@ -3482,9 +3482,9 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"left": 586,
-									"top": 379.5,
+									"top": 386,
 									"width": 84,
-									"height": 51,
+									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGeL99SLm++2kM="
 									},
@@ -6286,9 +6286,9 @@
 											"font": "Arial;13;1",
 											"parentStyle": true,
 											"left": 370.5,
-											"top": 285.5,
+											"top": 292,
 											"width": 91,
-											"height": 39,
+											"height": 26,
 											"text": "Cập nhật thông tin cá nhân",
 											"wordWrap": true
 										},
@@ -6325,9 +6325,9 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"left": 365.5,
-									"top": 278.5,
+									"top": 285,
 									"width": 101,
-									"height": 51,
+									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGeL/bF7ZifJIk="
 									},
@@ -6498,9 +6498,9 @@
 											"font": "Arial;13;1",
 											"parentStyle": true,
 											"left": 524.5,
-											"top": 356,
+											"top": 362.5,
 											"width": 103,
-											"height": 26,
+											"height": 13,
 											"text": "Check-in địa điểm",
 											"wordWrap": true
 										},
@@ -6537,9 +6537,9 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"left": 519.5,
-									"top": 349,
+									"top": 355.5,
 									"width": 113,
-									"height": 38,
+									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGeL/bwjJjNmaw="
 									},
@@ -7346,9 +7346,9 @@
 											"font": "Arial;13;1",
 											"parentStyle": true,
 											"left": 656,
-											"top": 598.5,
+											"top": 605,
 											"width": 79,
-											"height": 26,
+											"height": 13,
 											"text": "Xóa check-in",
 											"wordWrap": true
 										},
@@ -7385,9 +7385,9 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"left": 651,
-									"top": 591.5,
+									"top": 598,
 									"width": 89,
-									"height": 38,
+									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGeL/nJf5oPUFs="
 									},
@@ -7558,9 +7558,9 @@
 											"font": "Arial;13;1",
 											"parentStyle": true,
 											"left": 608.5,
-											"top": 702.5,
+											"top": 709,
 											"width": 84,
-											"height": 26,
+											"height": 13,
 											"text": "Xóa kiến nghị",
 											"wordWrap": true
 										},
@@ -7597,9 +7597,9 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"left": 603.5,
-									"top": 695.5,
+									"top": 702,
 									"width": 94,
-									"height": 38,
+									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGeL/n6H5o+i3A="
 									},
@@ -12326,9 +12326,9 @@
 											"font": "Arial;13;1",
 											"parentStyle": true,
 											"left": 379.5,
-											"top": 824,
+											"top": 830.5,
 											"width": 97,
-											"height": 26,
+											"height": 13,
 											"text": "Quản lý check-in",
 											"wordWrap": true
 										},
@@ -12365,9 +12365,9 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"left": 374.5,
-									"top": 817,
+									"top": 823.5,
 									"width": 107,
-									"height": 38,
+									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGeMABkKc1VkrA="
 									},
@@ -14259,9 +14259,9 @@
 											"font": "Arial;13;1",
 											"parentStyle": true,
 											"left": 551,
-											"top": 484,
+											"top": 490.5,
 											"width": 114,
-											"height": 26,
+											"height": 13,
 											"text": "Thêm địa điểm mới",
 											"wordWrap": true
 										},
@@ -14298,9 +14298,9 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"left": 546,
-									"top": 477,
+									"top": 483.5,
 									"width": 124,
-									"height": 38,
+									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGeMCnqIODzulU="
 									},
@@ -14683,9 +14683,9 @@
 											"font": "Arial;13;1",
 											"parentStyle": true,
 											"left": 664,
-											"top": 688,
+											"top": 694.5,
 											"width": 79,
-											"height": 26,
+											"height": 13,
 											"text": "Xóa địa điểm",
 											"wordWrap": true
 										},
@@ -14722,9 +14722,9 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"left": 659,
-									"top": 681,
+									"top": 687.5,
 									"width": 89,
-									"height": 38,
+									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGeMCpfYO9EX+M="
 									},
@@ -15531,9 +15531,9 @@
 											"font": "Arial;13;1",
 											"parentStyle": true,
 											"left": 584,
-											"top": 820,
+											"top": 826.5,
 											"width": 79,
-											"height": 26,
+											"height": 13,
 											"text": "Xóa check-in",
 											"wordWrap": true
 										},
@@ -15570,9 +15570,9 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"left": 579,
-									"top": 813,
+									"top": 819.5,
 									"width": 89,
-									"height": 38,
+									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGeMCsudymXAHM="
 									},
@@ -15743,9 +15743,9 @@
 											"font": "Arial;13;1",
 											"parentStyle": true,
 											"left": 587.5,
-											"top": 934.5,
+											"top": 941,
 											"width": 96,
-											"height": 26,
+											"height": 13,
 											"text": "Duyệt kiến nghị",
 											"wordWrap": true
 										},
@@ -15782,9 +15782,9 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"left": 582.5,
-									"top": 927.5,
+									"top": 934,
 									"width": 106,
-									"height": 38,
+									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGeMCtSSy1K+dA="
 									},
@@ -15955,9 +15955,9 @@
 											"font": "Arial;13;1",
 											"parentStyle": true,
 											"left": 677.5,
-											"top": 1014.5,
+											"top": 1021,
 											"width": 108,
-											"height": 26,
+											"height": 13,
 											"text": "Từ chối kiến nghị",
 											"wordWrap": true
 										},
@@ -15994,9 +15994,9 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"left": 672.5,
-									"top": 1007.5,
+									"top": 1014,
 									"width": 118,
-									"height": 38,
+									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGeMCtvLjKhAxI="
 									},
@@ -16167,9 +16167,9 @@
 											"font": "Arial;13;1",
 											"parentStyle": true,
 											"left": 544.5,
-											"top": 1100,
+											"top": 1106.5,
 											"width": 84,
-											"height": 26,
+											"height": 13,
 											"text": "Xóa kiến nghị",
 											"wordWrap": true
 										},
@@ -16206,9 +16206,9 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"left": 539.5,
-									"top": 1093,
+									"top": 1099.5,
 									"width": 94,
-									"height": 38,
+									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGeMCuOZDYJhmI="
 									},
@@ -17408,7 +17408,7 @@
 									"parentStyle": true,
 									"left": 420,
 									"top": 275.5,
-									"width": 134.81396484375,
+									"width": 134,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGeT5dLvPp8h6o="
@@ -26627,7 +26627,7 @@
 													"left": 885,
 													"top": 647,
 													"width": 159,
-													"height": 39,
+													"height": 26,
 													"text": "Trả về mảng tọa độ và dữ liệu hướng dẫn di chuyển",
 													"wordWrap": true
 												},
@@ -26664,7 +26664,7 @@
 											"left": 880,
 											"top": 640,
 											"width": 169,
-											"height": 51,
+											"height": 38,
 											"stereotypeLabel": {
 												"$ref": "AAAAAAGeNqEwHsWyq6A="
 											},
@@ -28481,7 +28481,7 @@
 													"left": 453,
 													"top": 455,
 													"width": 223,
-													"height": 39,
+													"height": 26,
 													"text": "Hiển thị hộp thoại (Modal) các bước di chuyển chi tiết bằng văn bản",
 													"wordWrap": true
 												},
@@ -28520,7 +28520,7 @@
 											"left": 448,
 											"top": 448,
 											"width": 233,
-											"height": 51,
+											"height": 38,
 											"stereotypeLabel": {
 												"$ref": "AAAAAAGeNqxpTsg6PN4="
 											},
@@ -32189,7 +32189,7 @@
 													"left": 693,
 													"top": 543,
 													"width": 199,
-													"height": 39,
+													"height": 26,
 													"text": "Tính toán khoảng cách dựa trên tọa độ giữa người dùng và địa điểm",
 													"wordWrap": true
 												},
@@ -32228,7 +32228,7 @@
 											"left": 688,
 											"top": 536,
 											"width": 209,
-											"height": 51,
+											"height": 38,
 											"stereotypeLabel": {
 												"$ref": "AAAAAAGeNtfVX8xY08o="
 											},
@@ -33012,7 +33012,7 @@
 													"left": 277,
 													"top": 791,
 													"width": 95,
-													"height": 52,
+													"height": 39,
 													"text": "Nhập thông tin check-in (số sao, nội dung, ảnh)",
 													"wordWrap": true
 												},
@@ -33051,7 +33051,7 @@
 											"left": 272,
 											"top": 784,
 											"width": 105,
-											"height": 64,
+											"height": 51,
 											"stereotypeLabel": {
 												"$ref": "AAAAAAGeNtjoWcy0dxU="
 											},
@@ -46318,22 +46318,6 @@
 													"top": 724,
 													"width": 213.603515625,
 													"height": 13
-												},
-												{
-													"_type": "ERDColumnView",
-													"_id": "AAAAAAGeT+ACUKM92i8=",
-													"_parent": {
-														"$ref": "AAAAAAGeOeIiPDz5Kgc="
-													},
-													"model": {
-														"$ref": "AAAAAAGeT9sxYuY+x7E="
-													},
-													"font": "Arial;13;0",
-													"parentStyle": true,
-													"left": 477,
-													"top": 739,
-													"width": 213.603515625,
-													"height": 13
 												}
 											],
 											"font": "Arial;13;0",
@@ -46341,7 +46325,7 @@
 											"left": 472,
 											"top": 599,
 											"width": 223.603515625,
-											"height": 158
+											"height": 143
 										}
 									],
 									"font": "Arial;13;0",
@@ -48132,14 +48116,6 @@
 									"type": "int",
 									"length": 0,
 									"foreignKey": true
-								},
-								{
-									"_type": "ERDColumn",
-									"_id": "AAAAAAGeT9sxYuY+x7E=",
-									"_parent": {
-										"$ref": "AAAAAAGeOeIiPDz1zAg="
-									},
-									"name": "Column1"
 								}
 							]
 						},
